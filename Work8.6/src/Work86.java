@@ -1,0 +1,120 @@
+import java.util.Scanner;
+public class Work86 
+{
+	public static void main(String[] args)
+	{ 
+		String inStr;
+		int inStrLen; 
+		Scanner in = new Scanner(System.in); 
+		System.out.print("Enter a String: ");
+		inStr = in.next(); 
+		for(int charIdx = 0; charIdx < inStr.length();++charIdx)
+		{
+
+			if(inStr.charAt(charIdx)=='a'||inStr.charAt(charIdx)=='A')
+			{
+				System.out.print("Z");
+			}
+			if(inStr.charAt(charIdx)=='b'||inStr.charAt(charIdx)=='B')
+			{
+				System.out.print("Y");
+			}
+			if(inStr.charAt(charIdx)=='C'||inStr.charAt(charIdx)=='c')
+			{
+				System.out.print("X");
+			}
+			if(inStr.charAt(charIdx)=='D'||inStr.charAt(charIdx)=='d')
+			{
+				System.out.print("W");
+			}
+			if(inStr.charAt(charIdx)=='E'||inStr.charAt(charIdx)=='e')
+			{
+				System.out.print("V");
+			}
+			if(inStr.charAt(charIdx)=='F'||inStr.charAt(charIdx)=='f')
+			{
+				System.out.print("U");
+			}
+			if(inStr.charAt(charIdx)=='G'||inStr.charAt(charIdx)=='g')
+			{
+				System.out.print("T");
+			}
+			if(inStr.charAt(charIdx)=='H'||inStr.charAt(charIdx)=='h')
+			{
+				System.out.print("S");
+			}
+			if(inStr.charAt(charIdx)=='I'||inStr.charAt(charIdx)=='i')
+			{
+				System.out.print("R");
+			}
+			if(inStr.charAt(charIdx)=='J'||inStr.charAt(charIdx)=='j')
+			{
+				System.out.print("Q");
+			}
+			if(inStr.charAt(charIdx)=='K'||inStr.charAt(charIdx)=='k')
+			{
+				System.out.print("P");
+			}
+			if(inStr.charAt(charIdx)=='L'||inStr.charAt(charIdx)=='l')
+			{
+				System.out.print("O");
+			}
+			if(inStr.charAt(charIdx)=='M'||inStr.charAt(charIdx)=='m')
+			{
+				System.out.print("N");
+			}
+			if(inStr.charAt(charIdx)=='N'||inStr.charAt(charIdx)=='n')
+			{
+				System.out.print("M");
+			}
+			if(inStr.charAt(charIdx)=='O'||inStr.charAt(charIdx)=='o')
+			{
+				System.out.print("L");
+			}
+			if(inStr.charAt(charIdx)=='P'||inStr.charAt(charIdx)=='p')
+			{
+				System.out.print("K");
+			}
+			if(inStr.charAt(charIdx)=='Q'||inStr.charAt(charIdx)=='q')
+			{
+				System.out.print("J");
+			}
+			if(inStr.charAt(charIdx)=='R'||inStr.charAt(charIdx)=='r')
+			{
+				System.out.print("I");
+			}
+			if(inStr.charAt(charIdx)=='S'||inStr.charAt(charIdx)=='s')
+			{
+				System.out.print("H");
+			}
+			if(inStr.charAt(charIdx)=='T'||inStr.charAt(charIdx)=='t')
+			{
+				System.out.print("G");
+			}
+			if(inStr.charAt(charIdx)=='U'||inStr.charAt(charIdx)=='u')
+			{
+				System.out.print("F");
+			}
+			if(inStr.charAt(charIdx)=='V'||inStr.charAt(charIdx)=='v')
+			{
+				System.out.print("E");
+			}
+			if(inStr.charAt(charIdx)=='W'||inStr.charAt(charIdx)=='w')
+			{
+				System.out.print("D");
+			}
+			if(inStr.charAt(charIdx)=='X'||inStr.charAt(charIdx)=='x')
+			{
+				System.out.print("C");
+			}
+			if(inStr.charAt(charIdx)=='Y'||inStr.charAt(charIdx)=='y')
+			{
+				System.out.print("B");
+			}
+			if(inStr.charAt(charIdx)=='Z'||inStr.charAt(charIdx)=='z')
+			{
+				System.out.print("A");
+			}	
+		}
+	}
+}
